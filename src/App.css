@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-footer{
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  margin-top: 20px;
+  align-self: baseline;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.thead{
+  color :#921b4c;
+  border :5px;
+  background-color: burlywood;
+  border-radius: 5px;
+  border-color: darkblue;
+}
+
+.tdata{
+  color :#000000;
+  border :5px;
+  background-color:rgb(209, 186, 157);
+  border-radius: 5px;
+  border-color: darkred;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.tbuttonu{
+  background-color: #348528;
+}
+.tbuttonu:hover{
+  background-color: #0e2e09;
+  color: #ffffff;
+}
+.tbuttond{
+  background-color: #b40000;
+
+}
+.tbuttond:hover{
+  background-color: #630d0d;
+  color: #ffffff;
+}
+
+.employee{
+  align-items: center;
+  background-color: #fffed4;
+  border: 1px solid rgb(255, 217, 0) ;
+  box-sizing: border-box;
+  align-self: center;
+  margin: 80px auto 0px auto;
+  width: 80%;
+}
+
+.red{
+  color: red;
+}
+
+.bold{
+  background-color: khaki;
+}
