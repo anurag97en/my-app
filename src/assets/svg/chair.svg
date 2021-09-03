@@ -1,0 +1,14 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <rect stroke-width="20" id="svg_4" height="242" width="477" y="280.39999" x="61.5" stroke="#000" fill="#fff"/>
+  <rect id="svg_5" height="178" width="400" y="313.39999" x="100" stroke-width="20" stroke="#000" fill="#fff"/>
+  <line fill="none" stroke="#000" x1="63" y1="59.39999" x2="172" y2="279.4" id="svg_2" stroke-linejoin="undefined" stroke-linecap="undefined" stroke-width="20"/>
+  <line fill="none" stroke="#000" stroke-width="20" x1="53.5" y1="54.39999" x2="546.50003" y2="57.39999" id="svg_3" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000" x1="537" y1="61.39999" x2="428" y2="280.4" id="svg_6" stroke-linejoin="undefined" stroke-linecap="undefined" stroke-width="20"/>
+  <line fill="none" stroke="#000" x1="153" y1="108.4" x2="235" y2="274.4" id="svg_7" stroke-linejoin="undefined" stroke-linecap="undefined" stroke-width="20"/>
+  <line fill="none" stroke="#000" x1="450" y1="117.39999" x2="366" y2="275.39999" id="svg_8" stroke-linejoin="undefined" stroke-linecap="undefined" stroke-width="20"/>
+  <line fill="none" stroke="#000" stroke-width="20" x1="89.49999" y1="112.39999" x2="504.50002" y2="115.39999" id="svg_9" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+ </g>
+
+</svg>
