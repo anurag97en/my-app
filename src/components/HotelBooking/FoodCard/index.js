@@ -7,6 +7,7 @@ let parentCard = {
   borderRadius: "10px",
   textAlign: "center",
   color: "white",
+  margin:"10px"
 };
 
 let subTitleStyle = { fontSize: "12px" };
