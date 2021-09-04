@@ -6,7 +6,7 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
-import { SubMenuConstants } from "../../constants/SubMenu";
+import { restuarantBookingWebsite } from "../../constants/SubMenu";
 import SubMenuItems from "../../components/SubMenuItems";
 import SubMenu from "../../containers/SubMenu";
 
@@ -29,7 +29,7 @@ let finalContentStyle = {
 const HotelBooking = () => {
   
   return (
-    <SubMenu subMenuArray={SubMenuConstants}>
+    <SubMenu subMenuArray={restuarantBookingWebsite}>
       <Switch>
         <Redirect exact from="/hotel_booking" to="/hotel_booking/book_seat" />
         <Route exact path="/hotel_booking/book_seat">

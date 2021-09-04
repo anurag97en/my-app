@@ -6,13 +6,13 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
-import { SubMenuConstants } from "../../constants/SubMenu";
+import { reviewWebsite } from "../../constants/SubMenu";
 import SubMenuItems from "../../components/SubMenuItems";
 import SubMenu from "../../containers/SubMenu";
 
-import BookSeat from "./BookSeat";
-import HotelDetails from "./HotelDetails";
-import BookFood from "./BookFood";
+import Books from "./Books";
+import Mobiles from "./Mobiles";
+// import BookFood from "./BookFood";
 
 //STYLES
 let subContentStyle = {
@@ -26,26 +26,23 @@ let finalContentStyle = {
   width: `${window.innerWidth - 200}px`,
   backgroundColor: "yellow",
 };
-const HotelBooking = () => {
+const ReviewWebsite = () => {
   
   return (
-    <SubMenu subMenuArray={SubMenuConstants}>
+    <SubMenu subMenuArray={reviewWebsite}>
       <Switch>
-        <Redirect exact from="/hotel_booking" to="/hotel_booking/book_seat" />
-        <Route exact path="/hotel_booking/book_seat">
-          <BookSeat />
+        <Redirect exact from="/review_website" to="/review_website/books" />
+        <Route exact path="/review_website/books">
+          <Books />
         </Route>
-        <Route path="/hotel_booking/hotel_details">
-          <HotelDetails />
-        </Route>
-        <Route path="/hotel_booking/book_food">
-          <BookFood />
+        <Route path="/review_website/mobiles">
+          <Mobiles />
         </Route>
       </Switch>
     </SubMenu>
   );
 };
 
-export default HotelBooking;
+export default ReviewWebsite;
 
 // ${window.innerWidth - 200}

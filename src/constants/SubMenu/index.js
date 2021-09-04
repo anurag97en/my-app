@@ -1,4 +1,4 @@
-export const SubMenuConstants = [
+export const restuarantBookingWebsite = [
   {
     title: "Book Seat",
     path: "/hotel_booking/book_seat",
@@ -7,44 +7,14 @@ export const SubMenuConstants = [
    path: "/hotel_booking/book_food" },
   { title: "Hotel Details",
    path: "/hotel_booking/hotel_details" },
-  //  {
-  //   title: "Book Seat",
-  //   path: "/home/book_seat",
-  // },
-  // { title: "About",
-  //  path: "/home/about" },
-  // { title: "Contact Us",
-  //  path: "/home/contact_us" },
-  //  {
-  //   title: "Book Seat",
-  //   path: "/home/book_seat",
-  // },
-  // { title: "About",
-  //  path: "/home/about" },
-  // { title: "Contact Us",
-  //  path: "/home/contact_us" },
-  //  {
-  //   title: "Book Seat",
-  //   path: "/home/book_seat",
-  // },
-  // { title: "About",
-  //  path: "/home/about" },
-  // { title: "Contact Us",
-  //  path: "/home/contact_us" },
-  //  {
-  //   title: "Book Seat",
-  //   path: "/home/book_seat",
-  // },
-  // { title: "About",
-  //  path: "/home/about" },
-  // { title: "Contact Us",
-  //  path: "/home/contact_us" },
-  //  {
-  //   title: "Book Seat",
-  //   path: "/home/book_seat",
-  // },
-  // { title: "About",
-  //  path: "/home/about" },
-  // { title: "Contact Us",
-  //  path: "/home/contact_us" },
 ];
+
+export const reviewWebsite=[
+  {
+    title:"Books",
+    path:"/review_website/books"
+  },{
+    title:"Mobiles",
+    path:"/review_website/mobiles"
+  }
+]
