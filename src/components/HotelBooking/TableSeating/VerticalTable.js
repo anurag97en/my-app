@@ -13,17 +13,17 @@ let table = {
 };
 
 let subTitleStyle = { fontSize: "12px" };
-let priceStyle = { fontWeight: "bold" };
+let priceStyle = { fontWeight: "bold", textAlign:"center", width:"100%", padding:"auto" , height:"105%"};
 let mrpStyle = { textDecorationStyle: "double", fontSize: "12px" };
 
-export const TableSeating = (props) => {
+export const VerticalTable = (props) => {
   return (
     <div style={parentCard}>
-      <LeftChair />
+      <LeftChair tableId={props.id}/>
       <div style={table}>
-       
+       <div style={priceStyle}>{props.id}</div>
       </div>
-      <RightChair/>
+      <RightChair tableId={props.id}/>
     </div>
   );
 };
