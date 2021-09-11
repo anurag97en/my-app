@@ -4,7 +4,7 @@
   },
   "hosting": {
     "site": "react-review-app",
-    "public": "build",
+    "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
