@@ -3,13 +3,9 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-"site": "react-review-app",
+    "site": "react-review-app",
     "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
