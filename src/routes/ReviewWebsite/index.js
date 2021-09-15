@@ -12,7 +12,7 @@ import SubMenu from "../../containers/SubMenu";
 
 import Books from "./Books";
 import Mobiles from "./Mobiles";
-// import BookFood from "./BookFood";
+ import Bikes from "./Bikes";
 
 //STYLES
 let subContentStyle = {
@@ -37,6 +37,9 @@ const ReviewWebsite = () => {
         </Route>
         <Route path="/review_website/mobiles">
           <Mobiles />
+        </Route>
+        <Route path="/review_website/bikes">
+          <Bikes />
         </Route>
       </Switch>
     </SubMenu>
